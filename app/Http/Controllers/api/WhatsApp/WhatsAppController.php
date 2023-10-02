@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Http;
 
 class WhatsAppController extends Controller
 {
+
     // Replace these with your actual credentials
     protected $apiUrl = 'https://api.whatsapp.com/v1/messages';
     protected $appId = '260091373513469'; // Your WhatsApp Business API app ID
