@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    /*margin: 0 auto;*/
+    /*padding: 20px;*/
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 540px;
+    /*height: 230px;*/
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #36486b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border-radius: 10px 10px 0 0;*/
+}
+
+.header-left {
+    /*flex: 1;*/
+    padding-right: 5px;
+}
+
+.header-right {
+    text-align: right;
+    flex: 1;
+    /*margin-right: 5px;*/
+}
+
+.content {
+    margin: 10px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    /*height: 50px;*/
+}
+
+.small-text {
+    color: #999; /* Placeholder text color */
+    opacity: 0.7; /* Opacity for the placeholder effect */
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-container {
+    text-align: right;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    /*height: 20px;*/
+}
+
+#sendButton {
+    background-color: green;
+    color: black;
+}
+
+#cancelButton {
+    background-color: transparent;
+    color: black;
+}
+
+.footer {
+    background-color: transparent;
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
