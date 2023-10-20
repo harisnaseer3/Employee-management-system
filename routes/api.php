@@ -38,12 +38,12 @@ Route::post('reset-password', [AuthController::class, 'resetPassword'])->name('r
 
 Route::get('email/verify/{id}', [VerificationController::class, 'verify'])->name('verification.verify');
 
-Route::middleware(['auth:api', 'verified'])->group(function () {
-
-    Route::post('logout', [AuthController::class, 'logout']);
-
-    /*
-     * Employee
-     */
+//Route::middleware(['auth:api', 'verified'])->group(function () {
+//
+//    Route::post('logout', [AuthController::class, 'logout']);
+//
+//    /*
+//     * Employee
+//     */
     Route::apiResource('/employee', EmployeeController::class);
-});
+//});
